@@ -19,9 +19,9 @@ function rot13(encodedStr){
 			decodedArr.push(lookup[encodedStr[i]]);
 		}
 	}
-  return decodedArr;//return decodedArr
+  return decodedArr;
 }
-console.log(rot13("AB"));
+console.log(rot13("#AB"));
 
 
 module.exports = rot13;
