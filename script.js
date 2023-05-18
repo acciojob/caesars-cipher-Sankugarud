@@ -21,7 +21,7 @@ function rot13(encodedStr){
 	}
   return decodedArr;//return decodedArr
 }
-console.log(encodedStr("#AB"));
+console.log(rot13("#AB"));
 
 
 module.exports = rot13;
